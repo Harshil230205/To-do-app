@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../components/layout/Navbar";
-import PopModel from "../components/layout/popModel";
+import PopModel from "../components/layout/PopModel";
 import { useEffect } from "react";
 import { TodoServices } from "../services/TodoSrvices";
 import Card from "../components/layout/Card";
