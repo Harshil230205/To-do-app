@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const backendUrl = "http://localhost:5000/api/v1"; // <--- no trailing slash
+const backendUrl = "https://nextstep-todo-app.netlify.app/api/v1"; // <--- no trailing slash
 axios.defaults.baseURL = backendUrl;
 
 const registerUser = async (userData) => {

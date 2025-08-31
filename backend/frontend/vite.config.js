@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(),tailwindcss()],
    server: {
     proxy: {
-      '/api': 'http://localhost:5000/api/v1', // or whatever port your backend runs on
+      '/api': 'https://nextstep-todo-app.netlify.app/api/v1', // or whatever port your backend runs on
     },
   }, 
 })
