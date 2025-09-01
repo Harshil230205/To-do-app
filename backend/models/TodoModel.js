@@ -19,6 +19,11 @@ const todoSchema  = new mongoose.Schema({
         ref: 'User',
         type:mongoose.Schema.ObjectId,
     },
+    name:{
+        ref: 'User',
+        type: String,
+        
+    }
 },{timestamps:true});   
 
 const todoModel = new mongoose.model("Todo", todoSchema);
