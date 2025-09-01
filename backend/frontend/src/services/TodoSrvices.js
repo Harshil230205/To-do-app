@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://nextstep-todo-app.netlify.app/api/v1";
+const API_URL = "https://to-do-app-nv7j.onrender.com/api/v1";
 
 // Always set the Authorization header before each request
 axios.interceptors.request.use((config) => {

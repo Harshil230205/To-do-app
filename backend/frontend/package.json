@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "proxy": "https://nextstep-todo-app.netlify.app/api/v1",
+  "proxy": "https://to-do-app-nv7j.onrender.com/api/v1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
